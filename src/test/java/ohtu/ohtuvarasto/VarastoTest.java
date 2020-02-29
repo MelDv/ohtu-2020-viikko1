@@ -128,7 +128,7 @@ public class VarastoTest {
     @Test
     public void liianSuuriOtto() {
         warasto.otaVarastosta(7);
-        assertEquals(0, warasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(7, warasto.getSaldo(), vertailuTarkkuus);
     }
 
     //toStringin testit
